@@ -197,7 +197,7 @@ abstract class GeneratorCommand extends Command
      * @param  string  $name
      * @return string
      */
-    protected function replaceClass($stub, $name)
+    protected function replaceClass(&$stub, $name)
     {
         $stub = str_replace(
             ['DummyClass'],
