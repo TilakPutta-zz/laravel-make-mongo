@@ -1,0 +1,10 @@
+<?php
+
+namespace DummyNamespace;
+
+use Jenssegers\Mongodb\Eloquent\Relations\Pivot;
+
+class DummyClass extends Pivot
+{
+    //
+}
