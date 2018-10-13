@@ -1,6 +1,6 @@
 <?php
 
-namespace Illuminate\Foundation\Console;
+namespace TilakPutta\Console;
 
 use Illuminate\Support\Str;
 use TilakPutta\Console\GeneratorCommand;
