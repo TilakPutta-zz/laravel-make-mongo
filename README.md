@@ -1,7 +1,9 @@
 Artisan Make Model (Mongo)
 ==========================
 
-[![Donate](https://img.shields.io/badge/donate-paypal-blue.svg)](https://www.paypal.me/tilakputta)
+
+[![Release](https://img.shields.io/badge/release-v1.0-green.svg)](https://github.com/TilakPutta/laravel-make-mongo/issues) 
+[![GitHub license](https://img.shields.io/github/license/TilakPutta/laravel-make-mongo.svg)](https://github.com/TilakPutta/laravel-make-mongo/blob/master/LICENSE) [![Donate](https://img.shields.io/badge/donate-paypal-blue.svg)](https://www.paypal.me/tilakputta)
 
 An Eloquent model and Query builder with support for MongoDB, using the original Laravel API. *This library extends the original Laravel classes, so it uses exactly the same methods.*
 
