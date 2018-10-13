@@ -200,7 +200,7 @@ abstract class GeneratorCommand extends Command
     protected function replaceClass($stub, $name)
     {
         $stub = str_replace(
-            ['DummyNamespace', 'DummyRootNamespace', 'NamespacedDummyUserModel'],
+            ['DummyClass'],
             [$this->getClass($name)],
             $stub
         );
