@@ -2,9 +2,9 @@
 
 namespace DummyNamespace;
 
-use Jenssegers\Mongodb\Eloquent\Model;
+use Jenssegers\Mongodb\Eloquent\Model as Eloquent;
 
-class DummyClass extends Model
+class DummyClass extends Eloquent
 {
     protected $collection = 'DummyCollection';
 
