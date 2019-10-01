@@ -12,24 +12,11 @@ class DummyClass extends Eloquent
         
     ];
 
-    protected $primaryKey = 'id';
+    protected $guarded = [
+        '_id'
+    ];
 
-    public $incrementing = false;
+    protected $primaryKey = '_id';
 
-    /**
-     * model life cycle event listeners
-     */
-    public static function boot(){
-        parent::boot();
-
-        static::creating(function ($instance){
-            if (!$instance->exists) {
-                $instance->id = uniqid();
-            }
-        });
-
-        static::created(function ($instance){
-            
-        });
-    }
+    public $incrementing = true;
 }
